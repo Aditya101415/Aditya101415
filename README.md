@@ -1,148 +1,162 @@
 <div align="center">
 
-<!-- Animated Header with Gradient -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,6&height=200&section=header&text=Aditya%20Yadav&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Frontend%20Developer%20|%20MERN%20Stack%20Explorer%20|%20Tech%20Enthusiast&descAlignY=52&descSize=18" />
+<!-- Animated Header with Enhanced Gradient -->
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,6,7&height=260&section=header&text=%F0%9F%92%BB%20Aditya%20Yadav&fontSize=70&fontColor=fff&animation=tilt&fontAlignY=38&desc=%F0%9F%9A%80%20Frontend%20Developer%20%7C%20%F0%9F%94%A7%20MERN%20Stack%20%7C%20%F0%9F%9B%A0%EF%B8%8F%20Tech%20Enthusiast&descAlignY=60&descSize=22)
 
-<!-- AI Robot Animation -->
-<img src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif" width="400" alt="AI Robot Animation"/>
+<!-- Hero Animation - SVG (Copyright Free) -->
+<svg width="480" height="320" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#38BDF8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+    <!-- <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(-20px) scale(1.02); }
+      }
+      .floating-orb { animation: float 3s ease-in-out infinite; }
+    </style> -->
+  </defs>
+  
+  <!-- Floating orbs animation -->
+  <circle class="floating-orb" cx="240" cy="80" r="40" fill="url(#heroGrad)" opacity="0.8" />
+  <circle class="floating-orb" cx="150" cy="150" r="30" fill="#38BDF8" opacity="0.6" />
+  <circle class="floating-orb" cx="330" cy="150" r="30" fill="#8B5CF6" opacity="0.6" />
+  
+  <!-- Connecting lines -->
+  <line x1="240" y1="120" x2="150" y2="150" stroke="url(#heroGrad)" stroke-width="2" opacity="0.5" />
+  <line x1="240" y1="120" x2="330" y2="150" stroke="url(#heroGrad)" stroke-width="2" opacity="0.5" />
+  <line x1="150" y1="150" x2="330" y2="150" stroke="url(#heroGrad)" stroke-width="2" opacity="0.5" />
+  
+  <!-- Center cube animation -->
+  <g transform="translate(240, 220)">
+    <rect x="-25" y="-25" width="50" height="50" fill="none" stroke="url(#heroGrad)" stroke-width="2" opacity="0.7" />
+    <circle cx="0" cy="0" r="5" fill="url(#heroGrad)" />
+  </g>
+</svg>
 
-<br>
+<!-- Animated Typing Text -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=40&duration=3500&pause=500&color=38BDF8&background=FFFFFF00&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=1000&height=140&lines=%E2%9C%A8+Welcome+to+My+Digital+Space!+%E2%9C%A8;%F0%9F%92%BB+Crafting+Innovation%2C+Building+Dreams;%F0%9F%9A%80+Let's+Create+Something+Extraordinary!)](https://git.io/typing-svg)
 
-<!-- Animated Typing Text with Rainbow Colors -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=2500&pause=800&color=FF6B6B&background=FFFFFF00&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=900&height=120&lines=%F0%9F%91%8B+Hey+There!+I'm+Aditya+Yadav;+Let's+Create+Something+Amazing!" alt="Typing SVG" />
-</a>
+<!-- Enhanced Colorful Badges -->
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin: 25px 0;">
 
-<!-- Colorful Badges -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=Aditya101415&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/Aditya101415?label=Followers&style=for-the-badge&color=blue" alt="Followers" />
-  <img src="https://img.shields.io/badge/Focus-MERN%20Stack-brightgreen?style=for-the-badge" alt="Focus" />
-  <img src="https://img.shields.io/badge/Lives-India-orange?style=for-the-badge" alt="Lives" />
-  <img src="https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python-yellow?style=for-the-badge" alt="Languages" />
-</p>
-
-<!-- Animated Line Break -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+![Profile Views](https://komarev.com/ghpvc/?username=Aditya101415&label=Profile%20Views&color=38BDF8&style=for-the-badge)
+![Followers](https://img.shields.io/github/followers/Aditya101415?label=Followers&style=for-the-badge&color=5E00F0&logo=github)
+![Focus](https://img.shields.io/badge/Focus-MERN%20Stack-38BDF8?style=for-the-badge&logo=react&logoColor=white)
+![Location](https://img.shields.io/badge/Location-India-FF6B6B?style=for-the-badge&logo=google-maps&logoColor=white)
+![Languages](https://img.shields.io/badge/Languages-JavaScript%20%7C%20Python-FFD700?style=for-the-badge&logo=python&logoColor=white)
+![Expertise](https://img.shields.io/badge/Expertise-DSA%20%26%20Algorithms-45B7D1?style=for-the-badge&logo=dependabot&logoColor=white)
 
 </div>
 
-<!-- About Me Section with Gradient -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Man%20Technologist.png" width="50" height="50" /> About Me
+</div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+---
 
-```bash
-const aditya = {
-    pronouns: "He" | "Him",
-    location: "India 🇮🇳",
-    code: ["C++", "C", "Python", "JavaScript", "HTML", "CSS"],
-    frameworks: ["React", "Vite"],
-    tools: ["Git", "GitHub", "GitLab", "VS Code"],
-    platforms: ["Vercel", "Netlify", "Render"],
-    education: {
-        degree: "B.Tech in CSE",
-        university: "Dr. A.P.J. Abdul Kalam Technical University",
-        gpa: "8+"
-    },
-    competencies: ["Data Structures & Algorithms", "OOP", "Program Management", "Team Leadership"],
-    problemsSolved: "160+ DSA problems (LeetCode, GFG, CodeChef)",
-    
-    contact: "official.aditya8787@gmail.com"
-};
-```
+## 👨‍💻 About Me
 
-<img align="right" alt="Coding" width="420" src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif">
+I'm a passionate **Full-Stack Developer** from India with expertise in **MERN Stack** development. I love building scalable applications, solving complex problems through algorithms, and contributing to open-source projects. Always eager to learn new technologies and best practices!
 
-<div align="left">
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="30">&nbsp;
-  
-### About Me
-
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="25" height="25" /> Quick Highlights
+### 🚀 Quick Highlights
 
 - 🎓 **B.Tech CSE** Student at **Dr. A.P.J. Abdul Kalam Technical University** (GPA: 8+)
-- 💻 **160+ DSA problems** solved across LeetCode, GFG & CodeChef
-- 🔧 Proficient in **C++, Python, JavaScript, React, Git**
-- 🌐 Platforms: **Vercel, Netlify, Render**
-- 📫 Reach me: **official.aditya8787@gmail.com**
-- 🎯 Focus: **Open-Source Contributions & System Architecture**
+- 💪 **160+ DSA problems** solved across LeetCode, GeeksforGeeks & CodeChef
+- 🔧 Proficient in **C++, Python, JavaScript, React.js, Node.js & Git**
+- ☁️ Deployment Expertise: **Vercel, Netlify, Render**
+- 📱 Full-Stack Developer specializing in **MERN Stack**
+- 📫 Contact: **[official.aditya8787@gmail.com](mailto:official.aditya8787@gmail.com)**
+- 🎯 Passion: **Open-Source Contributions & System Architecture**
+- ⚡ Always learning & building innovative solutions
+
+---
+
+## 💻 Tech Stack
+
+### 🗣️ Programming Languages
+<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+
+![C++](https://skillicons.dev/icons?i=cpp)
+![C](https://skillicons.dev/icons?i=c)
+![Python](https://skillicons.dev/icons?i=python)
+![JavaScript](https://skillicons.dev/icons?i=js)
+![HTML](https://skillicons.dev/icons?i=html)
+![CSS](https://skillicons.dev/icons?i=css)
 
 </div>
 
-<br clear="both">
+### ⚙️ Frameworks & Libraries
+<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+![React](https://skillicons.dev/icons?i=react)
+![Node.js](https://skillicons.dev/icons?i=nodejs)
+![Vite](https://skillicons.dev/icons?i=vite)
 
-<!-- Tech Stack Section -->
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="40"> Tech Stack
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
-<div align="center">
-
-### 💻 Programming Languages
-<p>
-  <img src="https://skillicons.dev/icons?i=cpp,c,python,js,html,css,react,vite" />
-</p>
+</div>
 
 ### 🛠️ Tools & Platforms
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,gitlab,vscode,vercel,netlify" />
-</p>
+<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+
+![Git](https://skillicons.dev/icons?i=git)
+![GitHub](https://skillicons.dev/icons?i=github)
+![GitLab](https://skillicons.dev/icons?i=gitlab)
+![VS Code](https://skillicons.dev/icons?i=vscode)
+![Vercel](https://skillicons.dev/icons?i=vercel)
+![Netlify](https://skillicons.dev/icons?i=netlify)
+
+</div>
 
 ### 🎯 Core Competencies
-<p>
-  <img src="https://img.shields.io/badge/Data_Structures_&_Algorithms-FF6B6B?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/OOP-4ECDC4?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Program_Management-45B7D1?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Team_Leadership-FFA07A?style=for-the-badge" />
-</p>
+<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+
+![DSA](https://img.shields.io/badge/DSA%20%26%20Algorithms-FF6B6B?style=for-the-badge&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-4ECDC4?style=for-the-badge&logoColor=white)
+![System Design](https://img.shields.io/badge/System%20Design-45B7D1?style=for-the-badge&logoColor=white)
+![Team Leadership](https://img.shields.io/badge/Team%20Leadership-FFA07A?style=for-the-badge&logoColor=white)
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+---
 
-<!-- GitHub Stats Section -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="40" height="40" /> GitHub Statistics
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+## 📊 GitHub Statistics
 
 <div align="center">
-  
-  <!-- GitHub Stats Card -->
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Aditya101415&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=C9D1D9"/>
-  
-  <!-- Top Languages Card -->
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Aditya101415&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9"/>
+
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=Aditya101415&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=false&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=C9D1D9&border_color=38BDF8)
+
+![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Aditya101415&layout=compact&langs_count=8&theme=tokyonight&hide_border=false&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&border_color=38BDF8)
 
 </div>
 
-<!-- GitHub Streak Stats -->
+### 🔥 GitHub Streak
+
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Aditya101415&theme=tokyonight&hide_border=true&background=0D1117&stroke=38BDF8&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak" />
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Aditya101415&theme=tokyonight&hide_border=false&background=0D1117&stroke=38BDF8&ring=38BDF8&fire=FF6B6B&currStreakLabel=38BDF8&border=38BDF8)
+
 </div>
 
-<!-- Activity Graph -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aditya101415&bg_color=0d1117&color=38bdf8&line=38bdf8&point=ffffff&area=true&hide_border=true" alt="Contribution Graph" />
-</div>
+### 📈 Contribution Graph
 
-<!-- GitHub Trophies -->
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Aditya101415&theme=radical&no-frame=true&no-bg=false&row=1&column=7&margin-w=15&margin-h=15" alt="Trophies" />
-</div>
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Aditya101415&bg_color=0d1117&color=38bdf8&line=38bdf8&point=FF6B6B&area=true&hide_border=false&border_color=38BDF8)
 
-<!-- Connect Section -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="40" height="40" /> Connect With Me
+### 🏆 GitHub Trophies
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Aditya101415&theme=radical&no-frame=false&no-bg=false&row=1&column=7&margin-w=15&margin-h=15&title_color=38BDF8&text_color=C9D1D9)
+
+---
+
+## 🌐 Connect With Me
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https:/Aditya101415.github.io/portfolio/)
+### 🔗 Professional Links
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://Aditya101415.github.io/portfolio/)
 [![Resume](https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](./Aditya_Yadav_Resume.pdf)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:talktoofficial.aditya8787@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:official.aditya8787@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aditya-yadav-63b550327)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/pt__aditya_yadav_official30)
 
@@ -154,80 +168,76 @@ const aditya = {
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+---
 
-<!-- Projects Showcase -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" width="40" height="40" /> Featured Projects
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+## 💼 Featured Projects
 
 <div align="center">
-
-<!-- Replace 'portfolio' with your actual repository names -->
-<!-- Example:
-<a href="https://github.com/Aditya101415/your-repo-name">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Aditya101415&repo=your-repo-name&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=C9D1D9" />
-</a>
--->
 
 [![Explore My Projects](https://img.shields.io/badge/Explore%20My%20Projects-38BDF8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Aditya101415?tab=repositories)
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+---
 
-<!-- Quote Section -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thought%20Balloon.png" width="40" height="40" /> Dev Quote
-
-<div align="center">
+## 💭 Dev Quote
 
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Code%20is%20like%20humor.%20When%20you%20have%20to%20explain%20it,%20it's%20bad.&author=Aditya%20Yadav)
 
-</div>
+---
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
-<!-- Random Joke -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Grinning%20Face%20with%20Big%20Eyes.png" width="40" height="40" /> Random Dev Joke
-
-<div align="center">
+## 😄 Random Dev Joke
 
 ![Jokes Card](https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder)
 
-</div>
+---
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+## 📋 Skills & Experience Matrix
 
-<!-- WakaTime Stats (optional - requires WakaTime setup) -->
-<!--
-## ⏱️ Weekly Coding Stats
+| Category | Skills |
+|----------|--------|
+| **Languages** | C++, C, Python, JavaScript, HTML5, CSS3 |
+| **Frontend** | React.js, HTML5, CSS3, Responsive Design |
+| **Backend** | Node.js, Express, RESTful APIs |
+| **Databases** | MongoDB, SQL |
+| **Tools** | Git, GitHub, VS Code, Postman |
+| **Platforms** | Vercel, Netlify, Render |
+| **Specialties** | MERN Stack, Full-Stack Development, DSA |
 
-[![Aditya's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Aditya101415&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/Aditya101415/github-readme-stats)
--->
+---
 
-<!-- Support Section -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Beating%20Heart.png" width="40" height="40" /> Support My Work
+## 🎯 Goals & Aspirations
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+- 🚀 Build production-ready applications that solve real-world problems
+- 📚 Master advanced system design and architecture patterns
+- 🌟 Contribute significantly to open-source projects
+- 💡 Mentor and help junior developers grow
+- 🏆 Achieve expertise in cloud-native development
 
+---
 
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
-<!-- Footer -->
 <div align="center">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Red%20Heart.png" width="25" height="25" /> Show some love by starring my repositories!
+### 💫 Thanks for visiting! Show some ⭐ love!
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,6&height=120&section=footer" width="100%" />
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,6&height=120&section=footer)
 
-**<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="25" height="25" /> Crafted with passion by [Aditya Yadav](https://github.com/Aditya101415) <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="25" height="25" />**
+**Feel free to reach out and let's build something amazing together!** 🚀
+
+---
 
 <p>
-  <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
-  <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" />
-  <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" />
+  <strong>Made with</strong> 💻 JavaScript | 
+  <strong>Fueled by</strong> ☕ Coffee | 
+  <strong>Powered by</strong> 🚀 Passion
 </p>
 
+**Crafted with passion by [Aditya Yadav](https://github.com/Aditya101415)**
+
+---
+
 </div>
+
+
+
 
